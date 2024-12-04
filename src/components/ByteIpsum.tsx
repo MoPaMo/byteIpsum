@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 
 //shadcn uti'ties
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import {Textarea} from '@/components/ui/textarea';
+import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
+import { Button } from './ui/button';
+import {Textarea} from './ui/textarea.tsx';
 
-import { generateTechIpsum } from '@/utils/generateTechIpsum';
+import { generateTechIpsum } from '../utils/generateTechIpsum.ts';
 
 
 export const ByteIpsum = () => {
