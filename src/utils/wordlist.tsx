@@ -7,6 +7,32 @@ const nouns: string[] = [
     "bandwidth",
     "capability",
     "capacity",
+    "cloud",
+    "cloud computing",
+    "code",
+    "collaboration",
+    "complexity",
+    "compliance",
+    "computing",
+    "configuration",
+    "container",
+    "content",
+    "convergence",
+    "cybersecurity",
+    "data",
+    "database",
+    "deployment",
+    "design",
+    "development",
+    "digital",
+    "disruption",
+    "document",
+    "encryption",
+    "end user",
+    "enterprise",
+    "environment",
+    "ethernet",
+
 
 ]
 
@@ -16,6 +42,8 @@ const adjectives: string[] = [
     'autonomous',
     'augmented',
     'binary',
+    'biometric',
+    'blockchain',
 ]
 
 const interpositions: string[] = [
