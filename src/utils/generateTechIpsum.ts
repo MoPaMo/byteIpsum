@@ -10,10 +10,10 @@ export default function generateTechIpsum(
     for (let j = 0; j < wordsPerParagraph; j++) {
       const noun = nouns[Math.floor(Math.random() * nouns.length)];
       let adjective: string;
-      if (Math.random() < 0.1) {
+      if (Math.random() < 0.069) {
         adjective =
           adjectives[Math.floor(Math.random() * adjectives.length)] +
-          " and " +
+          ", " +
           adjectives[Math.floor(Math.random() * adjectives.length)];
       } else {
         adjective = adjectives[Math.floor(Math.random() * adjectives.length)];

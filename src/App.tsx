@@ -1,7 +1,11 @@
 import ByteIpsum from "./components/ByteIpsum.tsx";
 
 function App() {
-  return <ByteIpsum />;
+return (
+
+        <ByteIpsum />
+
+);
 }
 
 export default App;
