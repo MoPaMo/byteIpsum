@@ -5,10 +5,10 @@ import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
 import { Button } from './ui/button';
 import {Textarea} from './ui/textarea.tsx';
 
-import { generateTechIpsum } from '../utils/generateTechIpsum.ts';
+import generateTechIpsum from '../utils/generateTechIpsum.ts';
 
 
-export const ByteIpsum = () => {
+export default function ByteIpsum () {
 
         const [ipsum, setIpsum] = useState('');
         const [paragraphs, setParagraphs] = useState(3);
