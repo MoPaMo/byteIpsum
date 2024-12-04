@@ -26,7 +26,8 @@ const interpositions: string[] = [
     'but',
     'so',
     'because of',
-    'through'
+    'through',
+    'the', 'of', 'and', 'in', 'to', 'a', 'for'
 ]
 
 
