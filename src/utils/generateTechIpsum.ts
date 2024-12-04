@@ -24,4 +24,5 @@ export default function generateTechIpsum(
     }
     ipsum.push(paragraph.join(" "));
   }
+    return ipsum.join("\n\n");
 }
