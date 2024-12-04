@@ -10,7 +10,7 @@ const nouns: string[] = [
 
 ]
 
-const adjecives: string[] = [
+const adjectives: string[] = [
     'artificial',
     'automated',
     'autonomous',
@@ -31,4 +31,4 @@ const interpositions: string[] = [
 ]
 
 
-export default {nouns, adjecives, interpositions};
+export  {nouns, adjectives, interpositions};
