@@ -39,7 +39,7 @@ export default function ByteIpsum () {
                       onChange={(e) => setParagraphs(Number(e.target.value))}
                       min="1" 
                       max="10" 
-                      className="w-16 p-1 border rounded"
+                      className="w-16 p-1 border rounded bg-transparent"
                     />
                   </div>
                   <div className="flex items-center space-x-2">
@@ -50,7 +50,7 @@ export default function ByteIpsum () {
                       onChange={(e) => setWordsPerParagraph(Number(e.target.value))}
                       min="10" 
                       max="200" 
-                      className="w-20 p-1 border rounded"
+                      className="w-20 p-1 border rounded bg-transparent"
                     />
                   </div>
                 </div>
