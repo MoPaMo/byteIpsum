@@ -1,4 +1,4 @@
-import ByteIpsum from './components/ByteIpsum.jsx';
+import ByteIpsum from './components/ByteIpsum.tsx';
 
 function App() {
   return <ByteIpsum />;
