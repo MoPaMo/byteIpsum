@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 //shadcn uti'ties
 import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
